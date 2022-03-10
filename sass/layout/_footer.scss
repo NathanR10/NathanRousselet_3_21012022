@@ -1,0 +1,27 @@
+// footer
+.footer {
+    background-color: #353535;
+    color: white;
+    padding: 20px;
+    &__title {
+        font-family: 'Shrikhand', cursive;
+        font-weight: 400;
+        font-size: 1.175em;
+        margin-bottom: 20px;
+        /*
+        @media (min-width: 768px) {
+            background-color: red;
+        }
+        */
+    }
+    &__list {
+        list-style-type: none;
+        margin-bottom: 20px;
+    } 
+    &__item {
+        margin: 10px 0;
+    }
+    &__icon {
+        width: 25px;
+    }
+}

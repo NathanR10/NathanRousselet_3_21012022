@@ -1,0 +1,27 @@
+.address {
+    font-style: unset;
+    z-index: 0;
+    background-color: #EAEAEA;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: #575757;
+    box-shadow: inset 0 2px 3px 0 #70707050;
+    &__icon {
+        transform: translateX(-35px);
+        position: absolute;
+        @media (min-width:900px)  {
+            transform: translateX(-25px);
+        }
+    }
+    &__desc {
+        font-size: 1.1em;
+    }
+    @media (min-width:900px)  {
+        box-shadow: unset;
+        background-color: unset;
+        text-align: left;
+        padding: 0 0 30px calc(3vw + 26px);
+        width: calc(100% - calc(3vw + 26px));
+    }
+}

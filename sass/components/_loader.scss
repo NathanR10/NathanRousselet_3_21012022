@@ -1,0 +1,29 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fadeOut;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+.loader__spinner {
+    width: 50px;
+    height: 50px;
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+    border-bottom: solid 2px black;
+    border-right: solid 2px white;
+    border-radius: 50%;
+    transform: rotateZ(0deg);
+    animation-name: spinner;
+    animation-duration: .55s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
