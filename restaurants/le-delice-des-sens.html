@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Oh my food</title>
     <meta
-        name="description"
-        content="Un site 100% mobile qui répertorie les menus de restaurants gastronomiques. 
+      name="description"
+      content="Un site 100% mobile qui répertorie les menus de restaurants gastronomiques. 
         Composez votre menu pour que les plats soient prêts à votre arrivée. Finis les temps d'attente !"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="../images/logo/ohmyfood@2x.svg" />
     <meta name="theme-color" content="#9356DC" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -20,171 +20,170 @@
       crossorigin="anonymous"
     />
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
+  </head>
+  <body class="menuPage">
     <header>
-        <h1 class="title title--main">ohmyfood</h1>
-        <img class="header__img" src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="à la française">
+      <h2 class="title title--main title--main title--menu">ohmyfood</h2>
+      <img class="header__img" src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="à la française" />
     </header>
     <main>
-        <section class="card">
-            <div class="card__titleFrame flex flex--between flex--alignCenter">
-                <h1 class="title title--main title--left title--small">À la française</h1>
-                <i class="fas fa-heart card__flexIcon"></i>
+      <section class="card">
+        <div class="card__titleFrame flex flex--between flex--alignCenter">
+          <h1 class="title title--main title--left title--small">À la française</h1>
+          <i class="fas fa-heart card__flexIcon"></i>
+        </div>
+        <div class="card__form">
+          <h3 class="card__title">ENTRÉES</h3>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Tartare de thon</b>
+              </p>
+              <p class="card__text card__text--desc">Assaisonné au yuzu</p>
             </div>
-            <div class="card__form">
-                <h2 class="card__title">ENTRÉES</h2>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Tartare de thon</b>
-                        </p>
-                        <p class="card__text card__text--desc">Assaisonné au yuzu</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">25€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Bouchée de homard croustillant </b>
-                        </p>
-                        <p class="card__text card__text--desc">Et sa farandole de petits légumes</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">35€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Velouté de cèpes </b>
-                        </p>
-                        <p class="card__text card__text--desc">Aux truffes</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">20€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="card__title">PLATS</h2>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Poulet rôti aux herbes de Provence</b>
-                        </p>
-                        <p class="card__text card__text--desc">Et sa crème de truffe</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">40€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Langouste rôtie</b>
-                        </p>
-                        <p class="card__text card__text--desc">Et ses légumes de saison</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">35€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Côte de boeuf Angus</b>
-                        </p>
-                        <p class="card__text card__text--desc">Et sa purée de panais</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">44€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="card__title">DESSERTS</h2>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Farandole de desserts</b>
-                        </p>
-                        <p class="card__text card__text--desc">Du chef</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">18€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Crème brulée</b>
-                        </p>
-                        <p class="card__text card__text--desc">Revisité</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">22€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__item flex flex--between fade-in-bottom">
-                    <div class="card__content">
-                        <p class="card__text">
-                            <b>Tiramisu</b>
-                        </p>
-                        <p class="card__text card__text--desc">À la noisette</p>
-                    </div>
-                    <div class="card__spoiler">
-                        <b class="card__price">23€</b>
-                        <div class="card__check">
-                            <i class="card__button fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__submit">
-                    <i class="card__button fas fa-check"></i>
-                </div>
+            <div class="card__spoiler">
+              <b class="card__price">25€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
             </div>
-            <div class="gradient__button">
-                <a class="gradient__link gradient__link--menu" href="#">Commander</a>
+          </article>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Bouchée de homard croustillant</b>
+              </p>
+              <p class="card__text card__text--desc">Et sa farandole de petits légumes</p>
             </div>
-        </section>
+            <div class="card__spoiler">
+              <b class="card__price">35€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Velouté de cèpes</b>
+              </p>
+              <p class="card__text card__text--desc">Aux truffes</p>
+            </div>
+            <div class="card__spoiler">
+              <b class="card__price">20€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <h3 class="card__title">PLATS</h3>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Poulet rôti aux herbes de Provence</b>
+              </p>
+              <p class="card__text card__text--desc">Et sa crème de truffe</p>
+            </div>
+            <div class="card__spoiler">
+              <b class="card__price">40€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Langouste rôtie</b>
+              </p>
+              <p class="card__text card__text--desc">Et ses légumes de saison</p>
+            </div>
+            <div class="card__spoiler">
+              <b class="card__price">35€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Côte de boeuf Angus</b>
+              </p>
+              <p class="card__text card__text--desc">Et sa purée de panais</p>
+            </div>
+            <div class="card__spoiler">
+              <b class="card__price">44€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <h3 class="card__title">DESSERTS</h3>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Farandole de desserts</b>
+              </p>
+              <p class="card__text card__text--desc">Du chef</p>
+            </div>
+            <div class="card__spoiler">
+              <b class="card__price">18€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Crème brulée</b>
+              </p>
+              <p class="card__text card__text--desc">Revisitée</p>
+            </div>
+            <div class="card__spoiler">
+              <b class="card__price">22€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <article class="card__item flex flex--between fade-in-bottom">
+            <div class="card__content" for="starter-1">
+              <p class="card__text">
+                <b>Tiramisu</b>
+              </p>
+              <p class="card__text card__text--desc">À la noisette</p>
+            </div>
+            <div class="card__spoiler">
+              <b class="card__price">23€</b>
+              <div class="card__check">
+                <i class="card__button fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="gradient__button">
+          <a class="gradient__link gradient__link--menu" href="#">Commander</a>
+        </div>
+      </section>
     </main>
     <footer class="footer">
+      <nav>
         <h2 class="footer__title">ohmyfood</h2>
         <ul class="footer__list">
-            <li class="footer__item">
-                <i class="fas fa-utensils footer__icon"></i>
-                Proposer un restaurant
-            </li>
-            <li class="footer__item">
-                <i class="fas fa-hands-helping"></i>
-                Devenir partenaire
-            </li>
-            <li class="footer__item">Mentions légales</li>
-            <li class="footer__item">Contact</li>
+          <li class="footer__item">
+            <i class="fas fa-utensils footer__icon"></i>
+            Proposer un restaurant
+          </li>
+          <li class="footer__item">
+            <i class="fas fa-hands-helping"></i>
+            Devenir partenaire
+          </li>
+          <li class="footer__item">Mentions légales</li>
+          <li class="footer__item">Contact</li>
         </ul>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>

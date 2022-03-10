@@ -1,5 +1,6 @@
 // footer
 .footer {
+    margin-top:auto;
     background-color: #353535;
     color: white;
     padding: 20px;
@@ -23,5 +24,9 @@
     }
     &__icon {
         width: 25px;
+    }
+    @media (min-width:900px)  {
+        padding-left: 3vw;
+        padding-right: 3vw;
     }
 }

@@ -101,6 +101,7 @@ header {
 }
 // Nav
 .nav__button {
+    cursor: pointer;
     background-color: #F6F6F6;
     box-shadow: 0 5px 10px 0 #dadada;
     padding: 25px 20px 22.5px 35px;
@@ -212,6 +213,7 @@ header {
     }
     &--menu {
         padding: 17.5px 55px;
+        margin-top: 40px;
     }
     &:hover, &:active {
         background-image: linear-gradient(to top, #a06ddd, #b970db, #d176db, #e983df, #ff93e0);

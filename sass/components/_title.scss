@@ -38,4 +38,10 @@
     &--small {
         font-size: 1.75em;
     }
+    &--menu {
+        @media (min-width:900px)  {
+            padding-left: 4.5vw;
+            width: calc(100% - 4.5vw);
+        }
+    }
 }
