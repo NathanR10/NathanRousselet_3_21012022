@@ -294,6 +294,10 @@ body {
 .footer__item {
   margin: 10px 0;
 }
+.footer__item a {
+  text-decoration: unset;
+  color: unset;
+}
 .footer__icon {
   width: 25px;
 }
