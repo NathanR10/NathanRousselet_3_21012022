@@ -406,7 +406,7 @@ header {
   .article__frame {
     justify-content: left;
     padding: 0 3vw;
-    width: calc(100% - 6vw + 2.66%);
+    width: calc(100% - 6vw - 2.66%);
   }
 }
 
